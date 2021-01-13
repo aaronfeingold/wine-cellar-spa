@@ -9,3 +9,7 @@
 wine = Wine.create(name: "Caymus", vintage: 2010)
 wine = Wine.create(name: "Silver Oak", vintage: 2011)
 wine = Wine.create(name: "Rob Mondavi", vintage: 2012)
+
+varietal = Varietal.create(name: "Cabernet Sauvignon", wine_id: 1)
+varietal = Varietal.create(name: "Pinot Noir", wine_id: 2)
+varietal = Varietal.create(name: "Chardonnay", wine_id: 3)
